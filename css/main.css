@@ -104,7 +104,7 @@ section ul li {
   border-radius: 6px;
 
   display: grid;
-  grid-template-comlumns: 1fr;
+  grid-template-columns: 1fr;
   grid-template-areas:
     "top"
     "middle"
