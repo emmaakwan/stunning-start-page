@@ -118,3 +118,22 @@ section h3 {
   font-size: 1.125rem;
   background-color: rgba(0, 0, 0, .1);
 }
+
+section li > img {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+}
+
+section div {
+  grid-area: top;
+
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-self: end;
+  background-color: rgba(0, 0, 0, .1);
+  border-radius: 1em 0 0 1em;
+  padding: 0 .5em;
+  margin: .5em 0 0;
+  font-style: italic;
+}
