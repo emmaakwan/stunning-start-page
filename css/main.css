@@ -97,3 +97,24 @@ section ul {
   gap: 1rem;
   grid-template-columns: 1fr 1fr;
 }
+
+section ul li {
+  background-color: #ccc;
+  border: 2px solid #afafaf;
+  border-radius: 6px;
+
+  display: grid;
+  grid-template-comlumns: 1fr;
+  grid-template-areas:
+    "top"
+    "middle"
+    "bottom";
+}
+
+section h3 {
+  grid-area: bottom;
+  text-align: center;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 1.125rem;
+  background-color: rgba(0, 0, 0, .1);
+}
