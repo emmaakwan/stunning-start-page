@@ -137,3 +137,25 @@ section div {
   margin: .5em 0 0;
   font-style: italic;
 }
+
+section div img {
+  width: 1em;
+  height: 1em;
+  margin-right: .5em;
+}
+
+section div strong {
+  font-weight: normal;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: .875rem;
+  align-items: center;
+}
+
+footer a {
+  color: #000;
+}
